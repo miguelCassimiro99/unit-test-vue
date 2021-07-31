@@ -39,7 +39,7 @@ test('valor input é o mesmo do valor do lance', () => {
   const lancesEmitidos = wrapper.emitted('novo-lance')
   const lance = parseInt(lancesEmitidos[0][0])
 
-  expect(lance).toBe(100);
+  expect(lance).toBe(100)
 })
 
 // npm run test:unit
