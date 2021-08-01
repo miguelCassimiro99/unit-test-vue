@@ -34,7 +34,7 @@ describe('A bet without minimum value', () => {
     const input = wrapper.find('input')
     input.setValue(100)
     // [
-    //   [100]
+    //   [100]lance
     // ]
     wrapper.trigger('submit')
     const lancesEmitidos = wrapper.emitted('novo-lance')
